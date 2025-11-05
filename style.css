@@ -4,7 +4,7 @@
 }
 
 .header1 {
-  background-color: rgb(25, 101, 156);
+  background-color: #0b266a;
   width: 100%;
   height: 90px;
   display: flex;
@@ -13,7 +13,7 @@
 }
 
 .header2 {
-  background-color: rgb(17, 134, 70);
+  background-color: rgb(60, 84, 172);
   width: 100%;
   height: 10px;
 }
