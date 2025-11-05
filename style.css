@@ -21,10 +21,9 @@
   display: flex;
 }
 
-.header1 .logo {
-  justify-content: flex-start;
-  justify-content: center;
+.logo-head logo {
   align-items: center;
+  justify-content: center;
 }
 
 .logo {
