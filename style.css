@@ -6,14 +6,17 @@
 .header1 {
   background-color: rgb(25, 101, 156);
   width: 100%;
-  height: 100px;
+  height: 90px;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
 }
 
 .header2 {
   background-color: rgb(17, 134, 70);
   width: 100%;
-  height: 30px;
+  height: 10px;
 }
 
 .header1 ul {
@@ -21,9 +24,8 @@
   display: flex;
 }
 
-.logo-head logo {
-  align-items: center;
-  justify-content: center;
+.header1 ul li {
+  padding: 10px;
 }
 
 .logo {
