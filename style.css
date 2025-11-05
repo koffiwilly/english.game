@@ -44,7 +44,7 @@ p {
 
 .coutainer_bleu {
   align-items: center;
-  background-color: #2d30d3;
+  background-color: #083c44;
   text-align: center;
 }
 
@@ -71,8 +71,10 @@ p {
 }
 
 .coutainer_blanc {
-  margin: 30px;
-  border-radius: 50px;
+  position: relative;
+  top: -30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
   align-items: center;
   background-color: #ffffff;
   text-align: center;
@@ -89,9 +91,6 @@ p {
 .coutainer_blanc p {
   color: #166f78;
   padding: 30px;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
 }
 
 .cta_jaune {
@@ -99,6 +98,36 @@ p {
   background-color: #ffbd4a;
   padding: 8px 30px;
   margin-bottom: 30px;
+}
+
+.coutainer_bleu_clair {
+  text-align: center;
+  background-color: #a5fcf8;
+  padding: 20px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.coutainer_bleu_clair > div {
+  margin: 40px 0;
+}
+
+.fond_card_blanc {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 10px;
+  display: inline-block;
+  margin: 25px;
+}
+
+.coutainer_bleu_clair img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.coutainer_bleu_clair h3 {
+  margin: 30px;
 }
 
 .ball {
@@ -122,8 +151,8 @@ p {
   top: -20px;
   width: 100%;
   height: 100px;
-  background-color: rgb(60, 84, 172);
   justify-content: center;
+  background-color: #177079;
   text-align: center;
   border-radius: 20px 20px 0 0;
 }
