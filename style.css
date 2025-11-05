@@ -144,10 +144,23 @@ p {
 .ball {
   width: 35px;
   height: 35px;
-  animation: boom 2s;
 }
 
-@keyframes boom {}
+.ball:hover {
+  animation: boom 1s ease-in-out;
+}
+
+@keyframes boom {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 .bill {
   width: 25px;
   height: 25px;
@@ -195,6 +208,21 @@ p {
   padding-left: 15px;
 }
 
+.logo:hover {
+  animation: spin 1 ease-in-out;
+}
+
+@keyframes spin {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 @media (max-width: 676px) {
   .footer {
     display: none;
