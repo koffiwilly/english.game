@@ -75,10 +75,15 @@ p {
   margin: 20px auto 40px;
 }
 
-#video_destop {
+.coutainer_bleu_video_destop {
   display: none;
 }
 
+@media (min-width: 768px) {
+  #video_desktop {
+    display: none;
+  }
+}
 .coutainer_blanc {
   position: relative;
   top: -30px;
@@ -89,6 +94,15 @@ p {
   text-align: center;
 }
 
+@media (min-width: 768px) {
+  .coutainer_bleu_clair {
+    display: flex;
+    padding: 10px;
+  }
+  .coutainer_bleu_clair > div {
+    padding: 10px;
+  }
+}
 .coutainer_blanc h2 {
   font-family: "Inter", sans-serif;
   color: #166f78;
