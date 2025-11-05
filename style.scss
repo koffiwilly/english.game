@@ -100,9 +100,10 @@ p {
 }
 
 .coutainer_bleu_clair {
+    color: white;
     text-align: center;
-    background-color: #a5fcf8;
-    padding: 20px;
+    background-color: #43bdcd;
+    padding: 80px 20px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
@@ -114,13 +115,23 @@ p {
 .fond_card_blanc {
     background-color: #ffffff;
     border-radius: 20px;
-    padding: 10px;
+    padding: 30px;
+    position: relative;
+    left: -50px; 
     display: inline-block;
-    margin : 25px
+    
 }
 
+.fond_card_blanc_droite{
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+    position: relative;
+    right: -50px; 
+    display: inline-block;
+}
 .coutainer_bleu_clair img {
-    max-width: 100%;    
+    width: 350px;    
     display: block;
     margin: 0 auto;    
 }
@@ -128,6 +139,8 @@ p {
 .coutainer_bleu_clair h3 {
     margin: 30px
 }
+
+
 
 .ball{
     width: 35px;
