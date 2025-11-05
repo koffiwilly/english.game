@@ -61,16 +61,12 @@ p {
   width: 80%;                
   display: block;            
   margin: 20px auto 40px ;
-
-  
 }
 
 #video_destop {
     display: none;
 }
 
-.cta_jaune{ 
-    padding: 8px 16px;  }
 
 
 .coutainer_blanc {
@@ -80,6 +76,27 @@ p {
     background-color: #ffffff; 
     text-align: center;
 }
+.coutainer_blanc h2 { 
+    color: #166f78;
+    font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+    padding: 40px;
+}
+.coutainer_blanc p {
+    color: #166f78;
+    padding:30px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+.cta_jaune { 
+    border-radius: 20px;
+    background-color: #ffbd4a;
+    padding: 8px 30px;
+    margin-bottom: 30px;
+}
+
 
 .ball{
     width: 25px;
