@@ -4,10 +4,11 @@
     padding:0 ;
 }
 .body{
-    background-color: red;
+   font-size: 'Inter', sans-serif ;
+    
 }
 .header1{
-    background-color: #0b266a;
+    background-color: #177079;
     width: 100%;
     height: 90px;
     display: flex;
@@ -15,7 +16,7 @@
     justify-content: space-between;
 }
 .header2{
-    background-color: rgb(60, 84, 172);
+    background-color: #1ca4ab;
     width: 100%;
     height: 10px;
 }
@@ -142,8 +143,8 @@ p {
 
 
 .ball{
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
 }
 .bill{
     width: 25px;
@@ -153,4 +154,29 @@ p {
     align-items: center;
     display: flex;
     gap: 15px;
+}
+.footer{
+    position: relative;
+    top: -20px;
+    width:100% ;
+    height: 100px;
+    justify-content: center;
+    background-color: #177079;
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+    .coutainer_bleu{ 
+    }
+
+    @media screen and (min-width: 768px) {
+    .cta_jaune{ 
+        padding: 10px 20px;
+        background-color: #ffd34a;
+    }
+    }
 }
