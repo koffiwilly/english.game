@@ -33,24 +33,18 @@
     height: 60.5px;
 }
 
-@media screen and (min-width: 768px) {
-    .coutainer_bleu{
-        text-align: center;
-        ;
-    }
-
-    .video{
-        width: 400px; 
-    height: 100vh;      
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    }
-    .cta_jaune{ 
-        background-color: #ffd34a; /* jaune */
-    color: #000; /* texte noir pour contraste */
-    padding: 10px 20px; /* espace à l’intérieur du bouton */
-    border: none; /* pas de bordure par défaut */
-    border-radius: 5px; /* coins arrondis */
-    font-size: 16px; /* texte un peu plus grand */}
+.coutainer_bleu{ 
+    background-color: #2d30d3; /* bleu */
+    text-align: center;
 }
+@media screen and (min-width: 768px) {
+    .coutainer_bleu{ 
+    }
+}
+
+    @media screen and (min-width: 768px) {
+    .cta_jaune{ 
+        padding: 10px 20px;
+        background-color: #ffd34a;
+    }
+    }
