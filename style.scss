@@ -19,17 +19,11 @@
     width: 100%;
     height: 10px;
 }
-.header1 ul{
-    justify-content: flex-end;
-    display: flex;
-}
-.header1 ul li{
-    padding: 10px;
-}
 
 .logo{
     width:101px ;
     height: 60.5px;
+    padding-left: 15px;
 }
 
 h1 {
@@ -87,9 +81,16 @@ p {
     text-align: center;
 }
 
-    @media screen and (min-width: 768px) {
-    .cta_jaune{ 
-        padding: 10px 20px;
-        background-color: #ffd34a;
-    }
-    }
+.ball{
+    width: 25px;
+    height: 25px;
+}
+.bill{
+    width: 25px;
+    height: 25px;
+}
+.icone{
+    align-items: center;
+    display: flex;
+    gap: 15px;
+}
