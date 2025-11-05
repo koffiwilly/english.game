@@ -66,6 +66,10 @@ p {
   margin: 20px auto 40px;
 }
 
+.coutainer_bleu_video_destop {
+  display: none;
+}
+
 @media (min-width: 768px) {
   #video_desktop {
     display: none;
