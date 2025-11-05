@@ -7,6 +7,7 @@
   background-color: rgb(25, 101, 156);
   width: 100%;
   height: 100px;
+  display: flex;
 }
 
 .header2 {
@@ -15,6 +16,7 @@
   height: 30px;
 }
 
-.header1 .ul {
+.header1 ul {
+  justify-content: flex-end;
   display: flex;
 }/*# sourceMappingURL=style.css.map */
