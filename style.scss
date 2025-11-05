@@ -32,7 +32,30 @@
     height: 60.5px;
 }
 
+<<<<<<< HEAD
 .bell{
     width: 25px;
     height: 25px ;
+=======
+@media screen and (min-width: 768px) {
+    .coutainer_bleu{
+        text-align: center;
+        ;
+    }
+
+    .video{
+        width: 400px; 
+    height: 100vh;      
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+    .cta_jaune{ 
+        background-color: #ffd34a; /* jaune */
+    color: #000; /* texte noir pour contraste */
+    padding: 10px 20px; /* espace à l’intérieur du bouton */
+    border: none; /* pas de bordure par défaut */
+    border-radius: 5px; /* coins arrondis */
+    font-size: 16px; /* texte un peu plus grand */}
+>>>>>>> 9c200ab8441473a72394ba5b7a139e4a02165a09
 }
