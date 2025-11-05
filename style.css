@@ -133,8 +133,10 @@ p {
 .ball {
   width: 35px;
   height: 35px;
+  animation: boom 2s;
 }
 
+@keyframes boom {}
 .bill {
   width: 25px;
   height: 25px;
