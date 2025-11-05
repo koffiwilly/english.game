@@ -32,13 +32,21 @@ h1 {
     padding: 40px;
     font-size: 48px;
     font-weight: 800;
-    line-height: 57.6px
+    font-family:'Inter', sans-serif ;   
+}
+.h2{
+    color: #a5fcf8;
+    font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+    font-family:'Inter', sans-serif ;  
 }
 
 p {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
+  font-family:  'Inter', sans-serif;
 }
 
 .coutainer_bleu{ 
@@ -81,6 +89,7 @@ p {
     text-align: center;
 }
 .coutainer_blanc h2 { 
+    font-family: 'Inter', sans-serif ;
     color: #166f78;
     font-weight: 800;
   font-size: 40px;
@@ -97,6 +106,7 @@ p {
     background-color: #ffbd4a;
     padding: 8px 30px;
     margin-bottom: 30px;
+    font-family:'Inter', sans-serif  ;
 }
 
 .coutainer_bleu_clair {
@@ -106,6 +116,7 @@ p {
     padding: 80px 20px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
+   font-family: 'Inter', sans-serif ; 
 }
 
 .coutainer_bleu_clair > div {
