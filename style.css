@@ -10,7 +10,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px;
 }
 
 .header2 {
@@ -31,4 +30,9 @@
 .logo {
   width: 101px;
   height: 60.5px;
+}
+
+.bell {
+  width: 25px;
+  height: 25px;
 }/*# sourceMappingURL=style.css.map */
